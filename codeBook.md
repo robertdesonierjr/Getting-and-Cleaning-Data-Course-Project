@@ -15,6 +15,8 @@ Compressed data set is first downloaded and unzipped.  In preparation of futher 
 (b) The file features.txt is converted to a data frame called variables (2 by 561)
 (c)
 
+There is a diagram that was provided by the TA for the class that provides an overview of the different files and their relationship to each other https://class.coursera.org/getdata-016/forum/thread?thread_id=50#comment-333 
+
 As per the problem statement the following steps are required
 (1) Merge the training and the test sets to create one data set.
 (2) Extract only the measurements on the mean and standard deviation for each measurement. 
