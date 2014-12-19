@@ -11,9 +11,9 @@ Data
 PROCESSING
 Compressed data set is first downloaded and unzipped.  In preparation of futher processing the following tasks are completed  prior to begining the next steps.
 
-<i> The files X_train and X_test are converted to data frames called trainData (7532 by 561) and testData (2947 by 561)
-<ii> The file features is converted to a data frame called variables (2 by 561)
-<iii>
+(a) The files X_train.txt and X_test.txt are converted to data frames called trainData (7532 by 561) and testData (2947 by 561)
+(b) The file features.txt is converted to a data frame called variables (2 by 561)
+(c)
 
 As per the problem statement the following steps are required
 (1) Merge the training and the test sets to create one data set.
