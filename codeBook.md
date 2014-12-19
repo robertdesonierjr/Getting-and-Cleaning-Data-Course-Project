@@ -9,7 +9,7 @@ Variables
 Data
 
 PROCESSING
-Compressed data set is first downloaded and unzipped.
+Compressed data set is first downloaded and unzipped.  The files X_train and X_test are converted to data frames called trainData and testData prior to 
 
 As per the problem statement the following steps are required
 (1) Merge the training and the test sets to create one data set.
@@ -21,3 +21,4 @@ As per the problem statement the following steps are required
 
 Each step in the sequence is described in more detail below.
 
+(1) Merge the training and the test sets (trainData, testData) using the rbind function to create one data set, mergedData.
