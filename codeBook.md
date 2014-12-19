@@ -9,7 +9,7 @@ Variables
 Data
 
 PROCESSING
-Compressed data set is first downloaded and unzipped.  The files X_train and X_test are converted to data frames called trainData and testData prior to 
+Compressed data set is first downloaded and unzipped.  The files X_train and X_test are converted to data frames called trainData and testData prior to begining the next steps.
 
 As per the problem statement the following steps are required
 (1) Merge the training and the test sets to create one data set.
@@ -18,7 +18,8 @@ As per the problem statement the following steps are required
 (4) Appropriately label the data set with descriptive variable names. 
 (5) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity     and each subject.
 
-
 Each step in the sequence is described in more detail below.
 
-(1) Merge the training and the test sets (trainData, testData) using the rbind function to create one data set, mergedData.
+(1) Merge the training and the test sets (trainData, testData) using the rbind function to create one data set, mergedData.  The dataframe is 10299 by 561.
+
+
