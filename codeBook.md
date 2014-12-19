@@ -16,4 +16,4 @@ As per the problem statement the following steps are required
 (4) Appropriately label the data set with descriptive variable names. 
 (5) From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity     and each subject.
 
-Each step is described in sequence below.
+Each step in the sequence is described in more detail below.
